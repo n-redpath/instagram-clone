@@ -1,0 +1,521 @@
+body{
+    background-color: #fafafa;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+
+
+.pagehead{
+    position: fixed;
+    display: inline;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #e8e7e7;
+    top: 0px;
+    left: 0px;
+    color: #3e4551;
+    width: 100%;
+    height: 80px;
+}
+
+.pagehead li{
+    list-style-type: none;
+    float: left; 
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+
+#instagram{
+    height: 35px;
+    width: 120px;
+    object-fit: cover;
+    padding-bottom: 40px;
+}
+
+#searchbar{
+    margin-top: 10px;
+    background-color: #fafafa;
+    text-align: center;
+    /* float: left; */
+    width: 250px;
+    height: 15px;
+    right: 300px;
+    margin-left: 100%;
+    border: 1px solid #e8e7e7;
+}
+
+
+#searchbar:focus{
+    background-color: white;
+    text-align: left;
+}
+
+.header-right{
+    float: right;
+    padding-right: 30px;
+    color: #3e4551;;
+}
+
+#right1{
+    float: right;
+    padding-right: 20px;
+    color: #3e4551;;
+}
+#right2{
+    float: right;
+    padding-right: 20px;
+    color: #3e4551;;
+}
+#right3{
+    float: right;
+    padding-right: 20px;
+    color: #3e4551;;
+}
+
+.vl{
+    border: 1px solid #e8e7e7;
+    height: 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.bigGrid{
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: 60%;
+}
+
+.post{
+    background-color:white;
+    border: 1px solid #e8e7e7;
+    margin-left: 80px;
+    font-size: 30px;
+    margin-right: 40px;
+    height: 730px;
+    text-align: left;
+    border-radius: 4px;
+    color: #3e4551;
+
+}
+
+.post-icons ul{
+    display: inline;
+    list-style-type: none;
+}
+.post-icons li{
+    display: inline;
+}
+
+.postImage{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+
+}
+
+.post-header{
+    font-size: 18px;
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 12% auto;
+}
+
+.posttext{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.posttext p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+}
+
+.timeago{
+    color: #adb3b9;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.post-header .post-prof-pic{
+    background-color: white;
+    height: 70px;
+}
+.post-header .post-prof-pic img{
+    margin-top: 15%;
+    margin-left: 20px;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-header .post-username{
+    background-color: white;
+    height: 60px;
+    margin-left: 7px;
+    padding-top: 7px;
+    text-align: left;
+    font-size: 15px;
+    color: #3e4551;;
+}
+
+.post-username p{
+    color:#3e4551;
+    font-weight: bold;
+}
+
+.post li{
+    padding-right: 7px;
+}
+
+.save{
+    float: right;
+    margin-right: 20px;
+}
+
+#likeshare1{
+    float: left;
+    margin-left: 20px;
+}
+#likeshare4{
+    float: left;
+    margin-left: 20px;
+}
+
+#likeshare2{
+    float: left;
+    margin-left: 10px;
+}
+#likeshare5{
+    float: left;
+    margin-left: 10px;
+}
+#likeshare6{
+    float: left;
+    margin-left: 10px;
+}
+
+#likeshare3{
+    float: left;
+    margin-left: 10px;
+}
+
+.im1{
+    margin-top: 10%;
+    height: 80%;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+
+.round{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.storyprofile p{
+    font-size: 13px;
+}
+.storyprofile b{
+    color: #3e4551;;
+    font-size: 15px;
+}
+
+.storyList .storyprofile .storyUsername{
+    margin-top: 23px;
+    margin-left: 10px;
+}
+
+.post .storyprofile .storyUsername{
+    padding-left: 0px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+
+.sforyou{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    background-color:white;
+    border: 1px solid #e8e7e7;
+    margin-left: 80px;
+    margin-right: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+
+}
+
+.sugbox{
+    height: 40%;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+.sugbox img{
+    height: 70%;
+    width: 30%;
+    float: center;
+    margin-left: 30px;
+}
+.sugbox p{
+    color: #adb3b9;
+    float: right;
+    margin-right: 20px;
+    margin-top: 1px;
+    font-size: 13px;
+}
+
+.suguser p{
+    color: #a1a4a7;
+    margin-top: 1px;
+    font-size: 13px;
+}
+.suguser b{
+    font-size: 15px;
+    color: #3e4551;
+}
+
+
+.follow{
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 7px;
+    height: 15%;
+    background-color:#3797f0;
+    color: white;
+}
+
+.follow p{
+    padding-top: 5px;
+}
+
+
+.suggestion{
+    padding-right: 0px;
+    height: 180px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    border: 1px solid #e8e7e7;
+    border-radius: 4px;
+}
+#stitle{
+    height: 55px; 
+    color: #adb3b9; 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.seeall{
+    height: 55px;
+    font-weight: bold;
+    color: #3797f0;;
+    font-size: 18px;
+    text-align: right;
+}
+
+.pageRight{
+    margin-left: 10px;
+    left: 61%;
+    width: 35%;
+    right: 20px;
+    position: fixed;
+}
+
+.rightProfile{
+    display: grid;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.storyprofile{
+    display: grid;
+    grid-template-columns: 15% 70%;
+    height: 80px;
+    width: 100%;
+}
+
+.storyTitle{
+    width: 100%;
+    font-size: 17px;
+    color: #adb3b9;
+    font-weight: bold;
+    height: 40px;
+}
+.storyTitle ul {
+    padding-left: 0px;
+    display: inline;
+}
+.storyTitle li{
+    padding-top: 0px;
+    display: inline;
+    float: left;
+}
+
+
+.storyTitle #watchall{
+    float: right;
+    font-weight: bold;
+    color: #3e4551;
+}
+
+hr{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /* color: #e8e7e7; */
+    border: 1px solid #e8e7e7;
+}
+
+.storyList{
+    background-color: #fafafa;
+    padding-top: 10px;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+}
+
+#fade{
+    background-color: fafafa;
+    position: relative;
+}
+/* The following code is taken from https://stackoverflow.com/questions/22666063/how-to-fade-the-edge-of-a-div-with-just-css */
+/* I edited it to better fit the style of the page. */
+#fade::after{
+  content  : "";
+  position : absolute;
+  z-index  : 1;
+  bottom   : 0;
+  left     : 0;
+  pointer-events   : none;
+    background-image : linear-gradient(to bottom, 
+                     rgba(255,255,255, 0), 
+                    #fafafa 100%);
+  width    : 100%;
+  height   : 4em;
+}
+
+.im1{
+    width: 100%;
+}
+
+.im1 .profileImage{
+    height: 100%;
+    width: 100%;
+}
+
+.storyUsername{
+    margin-top:15px;
+    padding-left: 10px;
+
+}
+.storyUsername p {
+    margin-top: 0px;
+    color: #adb3b9
+}
+
+.legalstuff{
+    background-color:  #fafafa;
+    color: #adb3b9;
+    height: 200px;
+}
+
+.legalstuff ul{
+    color:  #adb3b9;
+    margin-left: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.legalstuff li{
+    display: inline;
+    margin-left: 5px;
+}
+
+a{
+    color: #adb3b9;
+    text-decoration: none;
+}
+a:visited {
+    color: #adb3b9;
+}
+
+a:hover{
+    color: #adb3b9;
+    text-decoration: underline;
+}
+
+/* HIDING STUFF on mobile screen  */
+/* this code was taken from  */
+/* https://stackoverflow.com/questions/16550485/hide-div-tag-on-mobile-view-only */
+@media screen and (max-width: 850px) {
+    .pageRight {
+      visibility: hidden;
+      clear: both;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+
+    .post{
+        float: center;
+        width: 108%;
+        padding-left: 0px;
+        margin-left: auto;
+    }
+
+    #post2{
+        width: 108%;
+        padding: 0px;
+        margin-left: 10px;
+
+    }
+    .sforyou{
+        margin-left: 5px;
+        width: 108%;
+    }
+    .sforyou p{
+        font-size: 8px;
+    }
+
+    .sforyou b{
+        font-size: 9px;
+    }
+   .bigGrid{
+       align-content: center;
+   }
+
+  }
+
+  @media screen and (max-width: 570px) {
+    #post2{
+        width: 125%;
+        margin-left: 10px;
+
+    }
+
+  }
+
+  @media screen and (max-width: 370px) {
+    #post2{
+        width: 165%;
+        margin-left: 10px;
+
+    }
+
+  }
+
+  
